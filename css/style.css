@@ -1,0 +1,91 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+
+
+    background-color: hsl(212, 45%, 89%);
+
+}
+
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 23.44rem;
+    min-height: 100vh;
+    padding: 0 1.25rem 0 1.25rem;
+    
+}
+
+.background-qr{
+
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    max-width: 23.44rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+
+    border-radius: 10px; 
+
+
+}
+
+.qr-code {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+
+    
+    
+}
+
+.qr-code > img {
+    
+    width: 100%;
+    border-radius: 0.625000rem;
+    
+    
+}
+
+.qr-code > h1 {
+
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    width: 90%;
+    
+    
+}
+
+.qr-code > p {
+    
+    color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 0,937500rem;
+    font-weight: 200;
+    width: 80%;
+}
+
+
+
+
+/* The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+*/
